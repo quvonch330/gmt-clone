@@ -453,9 +453,14 @@ const Header1 = () => {
                   Производители
                   </div>
                 </NavLink>
-                <div className="relative font-semibold hover:text-[#088269_!important] cursor-pointer duration-200">
+                <NavLink
+                  to="/podkluch"
+                  className="flex flex-row items-start justify-start gap-[5px]"
+                >
+                  <div className="relative hover:text-[#088269_!important] cursor-pointer duration-200 font-semibold inline-block min-w-[56px]">
                   Кабинеты под ключ
-                </div>
+                  </div>
+                </NavLink>
                 <NavLink
                   to="/Uslugpag"
                   className="flex flex-row items-start justify-start gap-[5px]"
@@ -465,16 +470,21 @@ const Header1 = () => {
                   </div>
                 </NavLink>
                 <NavLink
-                  to="/discount"
+                  to="/catalog"
                   className="flex flex-row items-start justify-start gap-[5px]"
                 >
                   <div className="relative hover:text-[#088269_!important] cursor-pointer duration-200 font-semibold inline-block min-w-[56px]">
                   Акции
                   </div>
                 </NavLink>
-                <div className="relative font-semibold hover:text-[#088269_!important] cursor-pointer duration-200 inline-block min-w-[92px]">
+                <NavLink
+                  to="/manufactures"
+                  className="flex flex-row items-start justify-start gap-[5px]"
+                >
+                  <div className="relative hover:text-[#088269_!important] cursor-pointer duration-200 font-semibold inline-block min-w-[56px]">
                   Покупателям
-                </div>
+                  </div>
+                </NavLink>
                 <NavLink
                   to="/Contact"
                   className="flex flex-row items-start justify-start gap-[5px]"

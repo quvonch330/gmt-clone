@@ -17,6 +17,7 @@ import Togivepage from "./pages/togive/Togivepage";
 import PaymetPage from "./pages/paymet/PaymetPage";
 import GuarantePage from "./pages/guarante/GuarantePage";
 import Manufacturespage from "./pages/manufacturers/Manufacturespage";
+import Podkluchpage from "./pages/podkluch/Podkluchpage";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -49,9 +50,7 @@ const App = () => {
             <Route path="/Paymet" element={<PaymetPage />} />
             <Route path="/guarante" element={<GuarantePage />} />
             <Route path="/manufactures" element={<Manufacturespage />} />
-
-
-
+            <Route path="/podkluch" element={<Podkluchpage />} />
           </Routes>
           <Footer />
         </Router>
