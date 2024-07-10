@@ -1,0 +1,32 @@
+.banner-container {
+    position: relative;
+}
+.carousel {
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 24px;
+}
+.carousel .item {
+    scroll-snap-align: start;
+}
+.control-dots {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    position: absolute;
+    bottom: 0 !important;
+    margin-bottom: -8px !important;
+    left: 0 !important;
+    margin-left: 10px !important;
+    z-index: 1;
+}
+
+.carousel.carousel-slider {
+    overflow: visible !important;
+}
+.pagination-wrapper {
+    display: flex;
+    gap: 5px;
+}
+.banner-clip-path {
+clip-path: circle(100.1% at 100% 100%);
+}
